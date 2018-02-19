@@ -39,3 +39,10 @@ def WeatherData(city='Moscow', country='ru', units='metric'):
     f.close()
 
     return weatherData
+
+
+
+
+if __name__ == '__main__':
+
+    print(WeatherData('Haifa', 'il', 'metric'))
